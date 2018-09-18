@@ -1,0 +1,21 @@
+uuid: 33c8fd77-c65d-4e95-9179-3f376d1ba5db
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: nKCgSvxnkR4PWc10l70OcdXxHvkRswctjpfk1lWcrp8
+id: node.field_error_member_is_inactive
+field_name: field_error_member_is_inactive
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

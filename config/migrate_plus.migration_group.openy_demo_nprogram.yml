@@ -1,0 +1,14 @@
+uuid: d7be38b0-b356-42a9-ad67-e3a30ff685bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_nprogram
+_core:
+  default_config_hash: S15oKNp3h6fJBc_FoBcpJXRU1Gk4f4NXO521iHwOyXI
+id: openy_demo_nprogram
+label: Program
+description: 'Imports program demo content.'
+source_type: null
+module: openy_demo_nprogram
+shared_configuration: null

@@ -1,0 +1,21 @@
+uuid: 93e3ff9f-825d-41a7-af1f-8c9ae66d3235
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - tzfield
+_core:
+  default_config_hash: oJaEhUj2sjU6_Xmz_K4hvHNIbPZApyJjLu-w-bcuVP8
+id: node.field_campaign_timezone
+field_name: field_campaign_timezone
+entity_type: node
+type: tzfield
+settings: {  }
+module: tzfield
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

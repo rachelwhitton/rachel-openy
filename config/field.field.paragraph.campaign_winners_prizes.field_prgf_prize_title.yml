@@ -1,0 +1,21 @@
+uuid: 3ce4bcf8-e60e-4e3d-a637-a7cd6b82b15d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_prgf_prize_title
+    - paragraphs.paragraphs_type.campaign_winners_prizes
+_core:
+  default_config_hash: bDqZF3oD4OWVms10DV8USnMps4dN-PWI5tUlwkiBO3E
+id: paragraph.campaign_winners_prizes.field_prgf_prize_title
+field_name: field_prgf_prize_title
+entity_type: paragraph
+bundle: campaign_winners_prizes
+label: 'Prize title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

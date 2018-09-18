@@ -1,0 +1,25 @@
+uuid: 822be41d-d6f2-4fcd-9896-6a29017d739d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_limit_visits_goal
+    - node.type.campaign
+_core:
+  default_config_hash: Jn_Co3jY4tM1tzUUfM9i3WyGXXQyQnN4cwCK0NpV72A
+id: node.campaign.field_limit_visits_goal
+field_name: field_limit_visits_goal
+entity_type: node
+bundle: campaign
+label: 'Maximum visits goal'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

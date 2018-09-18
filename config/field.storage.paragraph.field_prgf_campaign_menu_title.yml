@@ -1,0 +1,23 @@
+uuid: 5a54f687-1061-49d9-a75c-7f512c30d7fd
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: VqsX8ezf1oL3tOuQimE5WxXoaQqjPS0zJ9dnV8Aw-Qo
+id: paragraph.field_prgf_campaign_menu_title
+field_name: field_prgf_campaign_menu_title
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: 2207b23c-77b4-452b-bf26-9d901032bcbd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: bOQgmbukxB8v5kFUzRI8KFkepBHiok8x_hJnowQ3ASI
+id: node.field_campaign_prize_coefficient
+field_name: field_campaign_prize_coefficient
+entity_type: node
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

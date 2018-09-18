@@ -1,0 +1,24 @@
+uuid: 45c8503c-43c5-47ac-a4dd-2d9e94d2d97d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.campaign_winners.field_prgf_campaign_winners
+    - paragraphs.paragraphs_type.campaign_winners
+  module:
+    - plugin
+_core:
+  default_config_hash: hCn0t-SGsgMk8-fSS2oWV6q5pwImmARS9aNLf48_m4A
+id: paragraph.campaign_winners.default
+targetEntityType: paragraph
+bundle: campaign_winners
+mode: default
+content:
+  field_prgf_campaign_winners:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: plugin_block_built
+    region: content
+hidden: {  }

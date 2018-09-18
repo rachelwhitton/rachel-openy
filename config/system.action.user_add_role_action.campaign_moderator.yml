@@ -1,0 +1,14 @@
+uuid: 451a7bb8-051a-4a54-8107-4605931b8c72
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.campaign_moderator
+  module:
+    - user
+id: user_add_role_action.campaign_moderator
+label: 'Add the Campaign moderator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: campaign_moderator

@@ -1,0 +1,23 @@
+uuid: b598847f-bd34-4ff1-849d-4b9416df567e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_campaign_prize_nowin
+    - node.type.campaign
+_core:
+  default_config_hash: lvKcJFARrzPTRdvb-YduWKNsCcfsXmtFaHyNsiYuP3U
+id: node.campaign.field_campaign_prize_nowin
+field_name: field_campaign_prize_nowin
+entity_type: node
+bundle: campaign
+label: 'Prize didn''t win copy'
+description: 'Will be displayed to members when they didn''t win their chance.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Didn''t win. Try next time.'
+default_value_callback: ''
+settings: {  }
+field_type: string

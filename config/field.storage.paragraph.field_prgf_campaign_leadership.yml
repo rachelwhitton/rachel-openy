@@ -1,0 +1,21 @@
+uuid: b83958ec-ec25-4caa-87ef-9831a09c6dea
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - plugin
+_core:
+  default_config_hash: jFnrGc4MJ4v8bLsWv2H-VxdHeOv2c2IiFuWgY6Pzjfc
+id: paragraph.field_prgf_campaign_leadership
+field_name: field_prgf_campaign_leadership
+entity_type: paragraph
+type: 'plugin:block'
+settings: {  }
+module: plugin
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: c5579507-31a8-4665-b86f-69c8cfd67c0a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: wLFaHymyd5ALRdeVUsApDUYqSRfRQBaOg6kMmP5qwHg
+id: node.field_campaign_menu
+field_name: field_campaign_menu
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

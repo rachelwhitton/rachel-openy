@@ -1,0 +1,14 @@
+uuid: a9fa62ea-1f5b-4020-a785-f94dffe61173
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_ninterstitial
+_core:
+  default_config_hash: 5vMAtdX7v_BjYzug-DEJ-GXdcHrPa8jxxkSW5xNqKNg
+id: openy_demo_ninterstitial
+label: 'Interstitial page'
+description: 'Imports interstitial demo content.'
+source_type: null
+module: openy_demo_ninterstitial
+shared_configuration: null

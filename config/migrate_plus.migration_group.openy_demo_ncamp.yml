@@ -1,0 +1,14 @@
+uuid: a51bb94b-15db-4e0a-b285-1cf35127778f
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_ncamp
+_core:
+  default_config_hash: 87B_2VpQ7DcLMsBRY2_eWUfZEVweZzH1ZeUcmS3DUvo
+id: openy_demo_ncamp
+label: Camp
+description: 'Imports camp demo content.'
+source_type: null
+module: openy_demo_ncamp
+shared_configuration: null

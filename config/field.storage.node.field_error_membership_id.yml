@@ -1,0 +1,21 @@
+uuid: 1f025c40-3e24-4652-9883-3cc7fa32af08
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: TCB9lmYoveTiIeCadFVnYRPyqiVCk54-RMSACswvTUo
+id: node.field_error_membership_id
+field_name: field_error_membership_id
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

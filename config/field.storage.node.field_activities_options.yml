@@ -1,0 +1,32 @@
+uuid: a7abb7e0-ba89-4f94-bacd-34431b76b6c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: DffMK-mL4SyAaQQnQv4nebWVV6dxKzLA-zqTqNAZGdw
+id: node.field_activities_options
+field_name: field_activities_options
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: field_prgf_activity_visits
+      label: 'Visit Goal'
+    -
+      value: field_prgf_campaign_game
+      label: Game
+    -
+      value: field_prgf_campaign_activity
+      label: 'Tracking Activity'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

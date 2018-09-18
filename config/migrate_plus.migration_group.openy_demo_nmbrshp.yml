@@ -1,0 +1,14 @@
+uuid: ac043b82-125d-443f-8e5b-2c60b494ab8b
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_nmbrshp
+_core:
+  default_config_hash: NV2QS2N03K_FeTRSR0b3-Sysr1m1GSg4F6deQVp2ogA
+id: openy_demo_nmbrshp
+label: Membership
+description: 'Imports membership demo content.'
+source_type: null
+module: openy_demo_nmbrshp
+shared_configuration: null

@@ -1,0 +1,21 @@
+uuid: 3a288b9b-6c83-490c-9156-da2f76c688b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_campaign_menu
+    - node.type.campaign
+_core:
+  default_config_hash: LE1CdcA2QbtjSanm07a14iFSddM0V6WaUp-ZnvL87EA
+id: node.campaign.field_campaign_menu
+field_name: field_campaign_menu
+entity_type: node
+bundle: campaign
+label: 'Campaign Menu'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

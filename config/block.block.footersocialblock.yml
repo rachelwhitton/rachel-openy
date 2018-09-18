@@ -1,0 +1,23 @@
+uuid: 37ec95b2-0f4b-403a-80f7-8470fcecc1b1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - openy_rose
+_core:
+  default_config_hash: q7UVv0kmhgYZY2-FX12kgjTEZiCsj7e4iIWLQARSsqs
+id: footersocialblock
+theme: openy_rose
+region: footer_social
+weight: -10
+provider: null
+plugin: 'block_content:e350fe26-bc73-4c69-af18-a51a052dbcd3'
+settings:
+  id: 'block_content:e350fe26-bc73-4c69-af18-a51a052dbcd3'
+  label: 'Footer Social Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

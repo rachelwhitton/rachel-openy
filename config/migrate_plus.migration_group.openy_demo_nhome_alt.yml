@@ -1,0 +1,10 @@
+uuid: 3993f23e-81c5-40c9-8b48-253229c0e511
+langcode: en
+status: true
+dependencies: {  }
+id: openy_demo_nhome_alt
+label: openy_demo_nhome_alt
+description: ''
+source_type: null
+module: null
+shared_configuration: null

@@ -1,0 +1,21 @@
+uuid: 9c3718f4-30a3-4466-9532-7692ded3539f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: ATbKIGxXjjQQBydrrUpy_vt6huXuNSSPAZC0XqqhVfU
+id: node.field_tracking_actv_goal_desc
+field_name: field_tracking_actv_goal_desc
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

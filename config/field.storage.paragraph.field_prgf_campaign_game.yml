@@ -1,0 +1,21 @@
+uuid: 42c6ee6e-8c43-4219-add8-29a374868f7e
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - plugin
+_core:
+  default_config_hash: nn-uOvEuCuurJozB2mcYscSOjl8jdSu-TRPbESupS8k
+id: paragraph.field_prgf_campaign_game
+field_name: field_prgf_campaign_game
+entity_type: paragraph
+type: 'plugin:block'
+settings: {  }
+module: plugin
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

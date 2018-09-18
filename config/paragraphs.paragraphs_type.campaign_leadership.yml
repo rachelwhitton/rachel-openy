@@ -1,0 +1,11 @@
+uuid: 263205d7-3c30-47e2-830d-32283a1d1f82
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: t5A-KLrapR6Nf20rrPbPdVR5vJ070lA9HxHsLjabNXE
+id: campaign_leadership
+label: 'Campaign Leadership'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

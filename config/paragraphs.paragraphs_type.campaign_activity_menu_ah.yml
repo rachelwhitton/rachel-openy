@@ -1,0 +1,11 @@
+uuid: f0350d3e-c1d4-4d8c-a8e7-2cca71733520
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: EFrwlljxpb9Iyd4qpdFX7t6bL7tEPDuO8AM1r_5wENA
+id: campaign_activity_menu_ah
+label: 'Campaign Activity Game and Text Block'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

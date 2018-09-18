@@ -1,0 +1,11 @@
+uuid: 20e8cf16-3a4f-4d82-9520-13fd0a4a103a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: VpJBoQseWjrZ4aFvjwyZyRQBTkbwYVi20ntzIb8jtSI
+name: 'Fitness Category'
+vid: fitness_category
+description: 'Fitness categories.'
+hierarchy: 1
+weight: 0

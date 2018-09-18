@@ -1,0 +1,14 @@
+uuid: 571ad5bc-9c83-4e41-85bd-3241a69035b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_nalert
+_core:
+  default_config_hash: ylryfh89WMfPNOx58t0yRt_Y11QTDEbJjmowVwE0bkE
+id: openy_demo_nalert
+label: Branch
+description: 'Imports alert demo content.'
+source_type: null
+module: openy_demo_nalert
+shared_configuration: null

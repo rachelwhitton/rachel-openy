@@ -1,0 +1,48 @@
+uuid: 3a1b7fb8-3c21-4147-a6f9-e81fbd03e594
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - openy_demo_nlanding
+_core:
+  default_config_hash: VtnjoqXfVfYmcZ3FL-Jy0ZbX4aroRod7f_cuV880ovo
+id: openy_demo_lp_paragraph_blog_posts_listing
+migration_tags: {  }
+migration_group: openy_demo_nlanding
+label: 'Create blog posts listing paragraph(s) for demo landing page nodes'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: blog_blog_posts_listing
+      parent_id: blog
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: und
+  status:
+    plugin: default_value
+    default_value: 1
+  uid:
+    plugin: default_value
+    default_value: 1
+  parent_id:
+    plugin: migration
+    migration: openy_demo_node_landing
+    no_stub: true
+    source: parent_id
+  parent_type:
+    plugin: default_value
+    default_value: node
+  parent_field_name:
+    plugin: default_value
+    default_value: field_content
+destination:
+  plugin: 'entity:paragraph'
+  default_bundle: blog_posts_listing
+migration_dependencies: {  }

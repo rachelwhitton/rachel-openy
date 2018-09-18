@@ -1,0 +1,14 @@
+uuid: 8d5e1163-a5b8-4dcf-b79b-cb77e244d820
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_demo_ncategory
+_core:
+  default_config_hash: U92mEoT0ZTzEaNNpjXsaVWHUbDYDN9w5KFHCz_PS_Ck
+id: openy_demo_ncategory
+label: 'Demo program category'
+description: 'Imports program category demo content.'
+source_type: null
+module: openy_demo_ncategory
+shared_configuration: null

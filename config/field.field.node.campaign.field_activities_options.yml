@@ -1,0 +1,29 @@
+uuid: 6268e7cf-ca65-403f-901d-090a2190b6f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_activities_options
+    - node.type.campaign
+  module:
+    - options
+_core:
+  default_config_hash: _hrtEFV4ncH0sLQYmv7qLGGdeONC7SX1Cm27u504dnM
+id: node.campaign.field_activities_options
+field_name: field_activities_options
+entity_type: node
+bundle: campaign
+label: 'Campaign Activities Options'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: visit_goal
+  -
+    value: game
+  -
+    value: activity
+default_value_callback: ''
+settings: {  }
+field_type: list_string
